@@ -9,7 +9,7 @@ export default defineConfig({
     proxy: {
       // Forwards /api requests to the Express server during local development.
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://aman-portfolio-backend.vercel.app',
         changeOrigin: true
       }
     }
